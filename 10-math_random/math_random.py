@@ -10,6 +10,6 @@ o = 2 * pi * r
 print(round(o, 2))
 
 cislo = random.randrange(0, 10)
-farba= random.choice(["red", "green", "blue"])
+farba = random.choice(["red", "green", "blue"])
 print(cislo)
 print(farba)

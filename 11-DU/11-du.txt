@@ -1,0 +1,2 @@
+Vytvoriť program, ktorý vypíše moje meno (min 5 písmen)
+vykreslené pomocou štvorčekov zo súboru pixel_letters.jpg
