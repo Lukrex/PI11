@@ -30,7 +30,7 @@ while True:
         santa1 = cv.create_image(cv_width * 1 // 6, santa1_y, image=image_santa)
         santa2 = cv.create_image(cv_width * 3 // 6, cv_height - 66, image=image_santa)
         santa3 = cv.create_image(cv_width * 5 // 6, 66, image=image_santa)
-        while santa1_y >= 0:
+        while santa1_y >= 66:
             cv.update()
             time.sleep(0.01)
             cv.move(santa1, 0, -1 * santa_posun)
